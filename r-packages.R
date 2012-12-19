@@ -5,7 +5,10 @@ oneplus.packages<-c("BGSIMD",
                     "tm",
                     "arm",
                     "plyr",
-                    "scatterplot3d")
+                    "scatterplot3d",
+                    "lubridate",
+                    "RCurl",
+                    "XML")
 
 for(package in oneplus.packages) {
     if (!require(package)) {
