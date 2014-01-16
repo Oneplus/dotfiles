@@ -11,6 +11,7 @@ Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'Shougo/neocomplcache'
 Bundle 'jnwhiteh/vim-golang'
+Bundle 'scrooloose/nerdtree'
 
 if has("syntax")
   syntax on
@@ -61,7 +62,7 @@ set list
 set expandtab
 
 "设置代码折叠方式为 手工  indent
-" set foldmethod=indent
+set foldmethod=manual
 "设置代码块折叠后显示的行数
 " set foldexpr=1
 
