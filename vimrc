@@ -10,6 +10,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'Shougo/neocomplcache'
+Bundle 'jnwhiteh/vim-golang'
 Bundle 'scrooloose/nerdtree'
 
 if has("syntax")
