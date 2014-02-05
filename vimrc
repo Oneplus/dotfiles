@@ -100,8 +100,8 @@ set helplang=cn
 
 " {{{ 编码字体设置
 set termencoding=utf-8
-set fileencoding=chinese
-set fileencodings=ucs-bom,chinese,utf-8
+set fileencoding=utf-8
+set fileencodings=utf-8,ucs-bom,chinese
 set ambiwidth=double
 " }}}
 
